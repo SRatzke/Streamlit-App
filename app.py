@@ -3,7 +3,7 @@ import pdfplumber
 from io import BytesIO
 
 # Pfad zu deinem Bild
-image_path = ".\Cognizant_Social_Logo.jpg"
+image_path = "./Cognizant_Social_Logo.jpg"
 
 # Bild anzeigen
 st.image(image_path, use_column_width=True)
